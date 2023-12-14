@@ -12,3 +12,32 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+/* анимация движения стрелки меню */
+
+@keyframes arrow-move {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(-4px);
+  }
+}
+
+@keyframes heart-like-fill {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes heart-like-sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
