@@ -207,8 +207,7 @@
 }
 
 .filter_hue-rotate {
-  filter: hue-rotate(120deg);
-
+  filter: hue-rotate(180deg) invert(0.2);
 }
 
 .filter_contrast {
