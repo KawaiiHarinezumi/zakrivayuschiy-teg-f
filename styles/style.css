@@ -384,7 +384,7 @@
 /* диалоговое окно */
 
 dialog {
-  position: fixed;
+  position: relative;
   inline-size: calc((100vw - 375px) * 0.015 + 341px);
   min-block-size: 195px;
   padding: 32px;
@@ -399,6 +399,7 @@ dialog {
 }
 
 dialog:not([open]) {
+  display: none;
   pointer-events: none;
   opacity: 0;
 }
