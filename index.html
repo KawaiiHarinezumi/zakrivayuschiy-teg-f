@@ -18,9 +18,9 @@
   </head>
   <body class="page">
     <header class="header content__section">
-      <div class="header__logo accent-font">
+      <a href="#0" class="header__logo accent-font">
         &lt;/html&gt;
-      </div>
+      </a>
       <h1 class="header__title accent-font">
         закрывающий тег
       </h1>
@@ -65,6 +65,7 @@
             <img
             class="picture filter_brightness"
             src="./images/photo1.jpg"
+            loading="lazy"
             alt="искатель приключений стоит на возвышенности и смотрит на бескрайнюю долину перед собой"
             >
           </picture>
@@ -85,6 +86,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -116,6 +118,7 @@
             <img
             class="picture filter_grayscale"
             src="./images/photo2.jpg"
+            loading="lazy"
             alt="искатель приключений стоит с горящим факелом в руке на пороге темной пещеры"
             >
           </picture>
@@ -136,6 +139,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -167,6 +171,7 @@
             <img
             class="picture filter_hue-rotate"
             src="./images/photo3.jpg"
+            loading="lazy"
             alt="группа из трех гоблинов"
             >
           </picture>
@@ -187,6 +192,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -218,6 +224,7 @@
             <img
             class="picture filter_contrast"
             src="./images/photo4.jpg"
+            loading="lazy"
             alt="разные виды фентезийного оружия"
             >
           </picture>
@@ -238,6 +245,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -269,6 +277,7 @@
             <img
             class="picture filter_saturate"
             src="./images/photo5.jpg"
+            loading="lazy"
             alt="группа людей в фентезийной одежде"
             >
           </picture>
@@ -289,6 +298,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -320,6 +330,7 @@
             <img
             class="picture filter_blur"
             src="./images/photo6.jpg"
+            loading="lazy"
             alt="каменное рукотворное подземелье"
             >
           </picture>
@@ -340,6 +351,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -371,6 +383,7 @@
             <img
             class="picture filter_sepia"
             src="./images/photo7.jpg"
+            loading="lazy"
             alt="группа людей празднуют за столом в средневековой таверне"
             >
           </picture>
@@ -391,6 +404,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -422,6 +436,7 @@
             <img
             class="picture filter_opacity"
             src="./images/photo8.jpg"
+            loading="lazy"
             alt="группа искателей приключений поднимаются на гору"
             >
           </picture>
@@ -442,6 +457,7 @@
             height="36"
             viewBox="0 0 39 36"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             >
               <g class="heart">
@@ -459,40 +475,40 @@
           </button>
         </div>
       </article>
-    </main>
-    <footer class="footer content__section">
-      <button type="button" class="button footer__button" onclick="window['dialog-id'].showModal()" 
-      aria-controls="dialog-id">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="29" 
-          height="28" 
-          viewBox="0 0 29 28">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">
-          Сохранить на память
-        </span>
-      </button>
-    </footer>
-    <dialog id="dialog-id">
-      <svg
-          class="dialog__floppy-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          width="39"
-          height="39"
-          viewBox="0 0 29 28">
-          <use href="./svg/floppy.svg#floppy"></use>
-      </svg>
-      <p class="accent-font dialog__text">
-        Вставьте дискету, чтобы продолжить
-      </p>
-      <form class="dialog__form" method="dialog">
-        <button class="dialog__button button">
-          Ок
+      <div class="bottom">
+        <button type="button" class="button bottom__button" onclick="window['dialog-id'].showModal()" 
+        aria-controls="dialog-id">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="21" 
+            viewBox="0 0 29 28">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text">
+            Сохранить на память
+          </span>
         </button>
-      </form>
-    </dialog>
+      </div>
+      <dialog id="dialog-id">
+        <svg
+            class="dialog__floppy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="39"
+            height="39"
+            viewBox="0 0 29 28">
+            <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="accent-font dialog__text">
+          Вставьте дискету, чтобы продолжить
+        </p>
+        <form class="dialog__form" method="dialog">
+          <button class="dialog__button button">
+            Ок
+          </button>
+        </form>
+      </dialog>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

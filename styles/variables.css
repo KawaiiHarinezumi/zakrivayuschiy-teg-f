@@ -9,7 +9,7 @@
   --bcg-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
                repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
                linear-gradient(#e7e7e7 0.01%, #1a1a1a 99.99%);
-  --width: calc((100vw - 375px) / 3.276 + 375px);
+  --width: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
   --stroke: #FFF;
   --like-button-color: #FFF;
   --heart-color: #000;
