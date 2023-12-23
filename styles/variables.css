@@ -6,9 +6,9 @@
   --font-weight-title: 700;
   --main-color: #000;
   --bcg-color: #FFF;
-  --bcg-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(255, 255, 255, 0) 2px 4px),
-               repeating-linear-gradient(#d3d3d3 0 2px, rgba(255, 255, 255, 0) 2px 4px),
-               linear-gradient(#e7e7e7 0.01%, #1a1a1a 99.99%);
+  --bcg-image: repeating-linear-gradient(90deg, rgba(211, 211, 211, 1) 0 2px, rgba(211, 211, 211, 0) 2px 4px),
+               repeating-linear-gradient(rgba(211, 211, 211, 1) 0 2px, rgba(211, 211, 211, 0) 2px 4px),
+               linear-gradient(#e7e7e7 0 0.01%, #1a1a1a);
   --width: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
   --stroke: #FFF;
   --like-button-color: #FFF;
